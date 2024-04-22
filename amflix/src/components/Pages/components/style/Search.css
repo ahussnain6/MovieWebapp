@@ -1,0 +1,27 @@
+.box{
+     background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+   color: white;
+   font-size: 2.7vw;
+    width: 100vw;
+    height: 86vh;
+}
+.backi{
+    background-size: 100% 100%;
+}
+ .a {
+    border: 2px solid black;
+    width: 25vw;
+    aspect-ratio: 1;
+    border-radius: .9vh;
+}
+.b{
+    width: 100%;
+    height: 100%;
+}
+ .a :hover{
+    transform: scale(1.02,1.02);
+}

@@ -1,0 +1,70 @@
+ .carousel1{
+    position: absolute;
+    /* border: 2px solid black; */
+    /* top: 10%; */
+    margin-top: 0vh;
+    height: 128vh;
+    width: 100%;
+    object-fit: contain;}
+.captio{
+    font-weight: 900;
+    letter-spacing: .8vh;
+    color: red;}
+.imgpo{
+    width: 100%;
+    height: 87vh;
+    /* border: 2px solid black; */
+}
+.carousel-indicators{
+    display: none;
+}
+
+
+@media screen and (width >= 1034px){
+    .movies{
+        height: 220vh;
+        position: absolute;
+        width: 100vw;
+        margin-top: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        background-color: black !important;
+     }
+}
+@media screen and (735px <= width <= 1034px){
+    .movies{
+        height: 210vh;
+        position: absolute;
+        width: 100vw;
+        margin-top: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        background-color: black !important;
+     }
+}
+@media screen and (450px <= width < 735px){
+    .movies{
+        height: 200vh;
+        position: absolute;
+        width: 100vw;
+        margin-top: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        background-color: black !important;
+     }
+}
+@media screen and (width < 450px){
+    .movies{
+        height: 190vh;
+        position: absolute;
+        width: 100vw;
+        margin-top: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        background-color: black !important;
+     }
+}

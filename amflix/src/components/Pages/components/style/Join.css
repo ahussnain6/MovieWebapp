@@ -1,0 +1,134 @@
+@media screen and (width > 950px){
+    .join{
+        margin: 0vh;
+        height: 90vh;
+        width: 100vw;
+        background-image:linear-gradient(to right,#434344 0%, black 100%) ;
+        color: white;
+        padding-top: 10vh;
+    }
+    .plan{text-align: center;
+    margin-top: 0vh !important;
+    }
+    .he1{
+        padding: 1.5vw;
+        color: red;
+        background-color: black;
+        border-radius:.9vh;}
+    .boxes{
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 24vh;
+        width: 100%;}
+    .boxes .boxe1{
+        border: 2px solid black;
+        width: 20vw;
+        padding-top: 3vh;
+        padding-left: .5vh;
+        overflow: hidden;
+        height: 51vh;
+        border-radius: 3vh;
+    }
+    .boxe1 .pr .price{  font-weight: 300;  font-family: "Teko", sans-serif;  font-size: 2.6vw;}
+    .boxe1 .qua {display: inline-block;  width: 40vh;}
+    .boxe1 .inc h3{  font-weight: 700; font-size: 1.5vw;}
+    .boxe1 .inc h2{font-size: 1.5vw;}
+    .boxe1 .qua .e2{font-weight: bolder;font-size: 1.5vw;}
+    .boxe1 .qua .e3{font-size: 1.5vw;}
+    .boxe1 .pr h3{ margin-top: 9vh;font-size: 1.9vw;font-weight: 700;} 
+    .boxe1 .pr{font-weight: 500;}
+    .boxe1 .price{font-family: "Teko", sans-serif;font-size: 7vw;font-weight: 300;}    
+}
+@media screen and (683px < width <= 950px){
+    .join{margin: 0vh;height: 90vh;
+        width: 100vw;
+        background-image:linear-gradient(to right,#434344 0%, black 100%) ;
+        color: white;
+        padding-top: 10vh;
+    }
+    .plan{ text-align: center;
+        margin-top: 0vh !important;
+    }
+    .he1{padding: 1vw;color: red;background-color: black;border-radius:.9vh;}
+    .boxes{display: flex;justify-content: space-around;
+        margin-top: 4vh;
+        flex-wrap: wrap;flex-direction: row;height: 24vh;width: 100%;}
+    .boxes .boxe1{border: 2px solid black;width: 24vw;padding-top: 1.3vh;
+        padding-left: .4vh;overflow: hidden;height: 40vh; border-radius: 3vh;}
+    .boxe1 .pr .price{  font-weight: 300;  font-family: "Teko", sans-serif;  font-size: 2.5vw;}
+    .boxe1 .qua {display: inline-block;  width: 40vh;}
+    .boxe1 .inc h3{  font-weight: 700; font-size: 1.5vw;}
+    .boxe1 .inc h2{font-size: 1.5vw;}
+    .boxe1 .qua .e2{font-weight: bolder;font-size: 1.5vw;}
+    .boxe1 .qua .e3{font-size: 1.5vw;}
+    .boxe1 .pr h3{ margin-top: 9vh;font-size: 1.9vw;font-weight: 700;} 
+    .boxe1 .pr{font-weight: 500;}
+    .boxe1 .price{font-family: "Teko", sans-serif;font-size: 5vh;font-weight: 300;}    
+}
+@media screen and (width <= 683px){
+    .join{margin: 0vh;
+        width: 100vw;
+        background-image:linear-gradient(to right,#434344 0%, black 100%) ;
+        color: white;
+        height: 106vh;
+    padding-top: 5vh;
+    }
+    .plan{ text-align: center;
+        margin-top: 0vh !important;
+
+    }
+    .he1{padding: 2vw;
+        font-size: 3vw;
+        color: red;background-color: black;border-radius:.9vh;}
+    .boxes{
+        /* display: grid; */
+        /* grid-template-columns: repeat(2,fr); */
+        height: 84vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100vw;
+    /* border:2px solid yellow ; */
+    }
+    .boxes .boxe1{border: 2px solid black;width: 40vw;
+        padding-top: 1.9vh;
+        margin-left: .6vh;
+        padding-left:1vh;overflow: hidden;height: 41vh;gap: 13vh;
+        border-radius: 3vh;}
+    .boxe1 .pr .price{font-weight:300;font-family: "Teko",sans-serif;  font-size: 3.3vw;}
+    .boxe1 .qua {display: inline-block;}
+    .boxe1 .inc h3{ font-weight: 700;font-size:2vw;}
+    .boxe1 .inc h2{font-size:2vw;}
+    .boxe1 .qua .e2{font-weight: bolder;font-size:2vw;}
+    .boxe1 .qua .e3{font-size:2vw;}
+    .boxe1 .pr h3{ margin-top: 9vh;font-size:2.4vw;font-weight:700;} 
+    .boxe1 .pr{font-weight:500;}
+    .boxe1 .price{font-family:"Teko",sans-serif;font-size:2.5vw;font-weight:300;}    
+}
+@media screen and (width <= 100px){
+    .join{height: 70vh;
+        background-image:linear-gradient(to right,#434344 0%, black 100%) ;
+        color: white;
+    }
+    .plan{ text-align: center;}
+    .he1{padding: 2vw;color: red;background-color: black;border-radius:.9vh;}
+    .boxes{
+        margin-left: 6vh;
+        display: grid;grid-template-columns:repeat(1,1fr);height: 24vh;width: 100%;text-align: center;}
+    .boxes .boxe1{border: 2px solid black;width: 75vw;padding-top: 1.5vh;
+        padding-left:0vh;overflow: hidden;margin-bottom:1vh; height: 37vh; border-radius: 3vh;}
+     
+    .boxe1 .pr .price{font-weight:300;font-family: "Teko",sans-serif;  font-size: 2.9vw;}
+    .boxe1 .qua {display: inline-block;}
+    .boxe1 .inc h3{ font-weight: 700;font-size:2.9vw;}
+    .boxe1 .inc h2{font-size:2.9vw;}
+    .boxe1 .qua .e2{font-weight: bolder;font-size:2.9vw;}
+    .boxe1 .qua .e3{font-size:2.9vw;}
+    .boxe1 .pr h3{ margin-top: 9vh;font-size:2.9vw;font-weight:700;} 
+    .boxe1 .pr{font-weight:500;}
+    .boxe1 .price{font-family:"Teko",sans-serif;font-size:5.6vh;font-weight:300;}    
+}

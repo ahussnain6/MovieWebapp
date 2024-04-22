@@ -1,0 +1,29 @@
+# Logs
+ "@reduxjs/toolkit": "^2.1.0",
+    "@tanstack/react-query": "^5.17.19",
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.env
+/.firebase
+.firebaserc
+firebase.json
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

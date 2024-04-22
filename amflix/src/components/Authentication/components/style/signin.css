@@ -1,0 +1,116 @@
+@media screen and (width >= 500px) {
+    .sign{
+        position: relative;
+        height: 90vh;
+        width: 100vw;
+        border: 2px solid black;
+        background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png");
+        background-size: 100% 100%;}
+    .form-label{
+        color: red;
+        text-shadow: 3px 1px 1px black;
+        font-weight: 700;}
+    .btn{
+        background-color: red;
+        color: white;}
+    .btn:hover{
+        background-color: red;
+        color: black;}
+    .for{
+        border: 2px solid black;
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 1.9vh;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2vh 5vh;
+        height: 59vh;}
+        .hp{
+   margin-top: 0vh !important;
+        }
+    .bt{
+        border: 1px solid black;
+        padding: 1vh 1vh;
+        border-radius: 1.3vh;
+        font-weight: bolder;
+        background-color: red;
+        color: white;}
+    .input{
+        padding-left: 1vh;
+        height: 4.5vh;
+        margin: 1vh 0vh;
+        border-radius: .7vh;    }
+    .bt:hover{
+        color: red;
+        background-color: black;    }
+    .page{display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100vw;
+        height: 89.8vh;
+        background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, transparent 45%); }   
+}
+@media screen and (width < 500px) {
+    .sign{
+        position: relative;
+        height: 90vh;
+        width: 100vw;
+        background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");        
+         
+        background-size: 100% 100%;
+    }
+    .form-label{
+        color: red;
+        text-shadow: 3px 1px 1px black;
+        font-weight: 700;
+    }
+    .btn{
+        background-color: red;
+        color: white;
+    }
+    .btn:hover{
+        background-color: red;
+        color: black;
+    }
+    .hp{
+        margin-top: 0vh !important;
+             }
+    .for{
+        border: 2px solid black;
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 1.9vh;
+        width: 78vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2vh 1vh;
+        height: 50vh;
+    }
+    .bt{
+        border: 1px solid black;
+        padding: .7vh 1vh;
+        border-radius: 1.1vh;
+        font-weight: bolder;
+        background-color: red;
+          color: white;
+        }
+        .bt:hover{
+            background-color: black;
+            color: red;
+        }
+    .input{
+        padding-left: .6vh;
+        height: 3.9vh;
+        margin: 1vh 0vh;
+        border-radius: .7vh;
+    }
+    .page{ 
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100vw;
+        height: 89.8vh;
+        background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, transparent 45%);
+    }   
+}

@@ -1,0 +1,79 @@
+.youtube{
+    height: 100vh;
+    position: relative;
+    padding-top:-19vh;
+    background-color: black;
+    color: white;
+}
+.sid{
+    background-color:black;
+    color:white;
+    width:98.7vw;
+}
+.you{
+background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin-top:-9vh;
+}
+.error{
+ margin-top: 0vh !important;
+    padding-top: 15vh;
+    text-align: center;
+    background-color: black;
+    margin-top: 0vh !important;
+    height: 89vh;
+    color: white;
+    /* style={{backgroundColor:"black",marginTop:"0vh", */
+        /* height:"89vh",color:"white",textAlign:"center" */
+}
+.youtube h1{
+    position: absolute;
+    top: 10vh;
+}
+.sq{  
+    /* background-image:linear-gradient(to right,#434344 0%, black 100%) ; */
+color: white;
+background-color: black;
+margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.bo{
+    position: relative;
+    width: 100%;
+    padding-top: 4vh;
+    height: 21vh;
+    border: 1px solid white;}
+.img{
+    /* border: 2px solid black; */
+    /* border-radius: 19vh; */
+    position: absolute;
+    top: 4.9vh;
+    background-color: black !important;
+    color: black;
+    border-radius: 5vh;
+    right: 3vh;
+    height: 8vh;
+    width: 8vh;
+}
+.bo .name {
+    padding-top: 2.5vh;
+    /* width: 100%; */
+    /* height: 10vh; */
+    font-size: 2.34vw;
+}
+.bo .size{
+    font-size: 1.5vw;
+    /* margin-top: -10vh; */
+    width: 50vh;
+    height: 30vh;
+}
+.popi{
+    text-align: center;
+    z-index: 1000;
+    color: white;
+    margin-top: 0vh !important;
+}
+/* style={{textAlign:"center",zIndex:"100",color:"white"}} */

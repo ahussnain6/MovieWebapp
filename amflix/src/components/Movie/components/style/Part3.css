@@ -1,0 +1,103 @@
+.back{
+  background-size: 100% 100%;
+}
+.headin{
+margin-left: 5vh;
+font-size: 4vw;
+margin-top: 10vh;
+color: red;
+}
+h1{
+  position: sticky;
+  margin-top: 30vh;
+  font-family: "Kanit", sans-serif;
+  color:red;
+  }
+  .main{
+    max-width: 95vw;
+    position: relative;
+    /* border: 4px solid blue; */
+    overflow: hidden;
+    margin-left: 5vh;
+    min-height: 34vh;  }
+.popular3{
+  position: absolute;
+       height: 30vh;      display: flex;
+        flex-direction: row;   animation: move3 15s infinite  ease-out;}
+@keyframes move3 {
+  0%{left: 0vh}
+  50%{left: -263vh}
+  100%{left: -617vh}} 
+.box3:hover{
+  transform: scale(1.2,1.2);
+ }
+.box3{
+    border: 1px solid transparent;
+    border-radius: 1vh;
+  width: 41vh;
+  height: 30vh;  
+}
+.left{
+/* background-color: black; */
+color: white;
+width: 5vh;
+height: 10vh;
+z-index: 1000;
+}
+
+
+
+
+
+@media screen and (width >= 784px){
+  h1{position: sticky;margin-top: 28vh;font-family: "Kanit", sans-serif;color:red;}
+  .main{
+      max-width: 95vw;position: relative;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      overflow: hidden;margin-left: 5vh;}
+  .popular3{
+    position: absolute;height: 30vh;display: flex;
+          flex-direction: row;animation: move 20s infinite  ease-out;}
+  @keyframes move { 0%{left: 0vh}
+  50%{left: -263vh}
+  100%{left: -607vh}}
+  .box3:hover{transform: scale(1.3,1.3);}
+  .box3{ border: 1px solid transparent;border-radius: 1vh;width: 41vh;height: 30vh;}}
+  @media screen and (500px < width < 784px){
+    h1{position: sticky;margin-top: 15vh;font-family: "Kanit", sans-serif;color:red;}
+    .main{max-width: 90vw;position: relative; 
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;overflow: hidden;}
+  .popular3{position: absolute;height: 20vh;display: flex;flex-direction: row;animation: move 20s infinite  ease-out;}
+  /* @keyframes move {0%{left: 0vh}50%{left: -263vh}100%{left: -580vh}}  */
+  .box3:hover{transform: scale(1.2,1.2);}
+  @keyframes move {0%{left: 0vh}50%{left: -233vh}100%{left: -450vh}}
+  .box3{border: 1px solid transparent;border-radius: 1vh;width: 29vh;height: 29vh;}
+  }
+  @media screen and (412px < width <= 500px){
+    h1{position: sticky;margin-top: 15vh;font-family: "Kanit", sans-serif;color:red;}
+    .main{max-width: 88vw;position: relative;
+      /* background-color: black; */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;overflow: hidden;margin-left: 5vh;
+       }
+  .popular3{
+    position: absolute;height: 20vh;display: flex;flex-direction: row;animation: move 20s infinite  ease-out;}
+  @keyframes move {0%{left: 0vh}50%{left: -263vh}100%{left: -580vh}} 
+  .box3:hover{transform: scale(1.2,1.2);}
+  .box3{border: 1px solid transparent;margin-top: 5vh;border-radius: 1vh;width: 22vh;height: 23vh;
+     
+  }
+  
+  }
+  @media screen and (width <= 412px){
+    h1{position: sticky;margin-top: 15vh;font-family: "Kanit", sans-serif;color:red;}
+    .main{max-width: 85vw;position: relative;
+      /* background-color: black; */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;overflow: hidden;   }
+  .popular3{position: absolute;height: 20vh;display: flex;flex-direction: row;
+    animation: move 20s infinite  ease-out;}
+  @keyframes move{0%{left: 0vh}50%{left: -213vh}100%{left: -300vh}} 
+  .box3:hover{transform: scale(1.2,1.2);}
+  .box3{border: 1px solid transparent;border-radius:1vh;
+    margin-top: 5vh;width:35vw;height:25vh;
+  }
+}

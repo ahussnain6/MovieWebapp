@@ -1,0 +1,70 @@
+nav{
+    background-color: black;position: relative;
+    width: 100vw; height: 10vh;
+    position: fixed;z-index: 1222;
+        font-family: "Kanit", sans-serif;font-weight: 100;
+        font-style: normal;margin-top: 0vh;
+    border-bottom: 2px solid red;}
+
+.lefth{
+    /* color: white; */
+    position: absolute;
+    height: 9.7vh;
+    width: 50%;
+}
+
+.lefth .logo{
+    color: red !important;
+    border-radius: 10vh;
+}
+.righth{
+    width: 50%;
+    position: absolute;
+    left: 59%;
+    height: 9.4vh;
+}
+.righth ul {
+    /* border: .2px solid red; */
+    position: absolute;
+    top: 1.8vh;
+    list-style: none;
+    display: flex;
+    gap: 6vh;
+    font-weight: 500;
+}
+.link{
+    color: white;   
+    text-decoration: none;
+    padding-right: 3vh;
+}
+.link:hover{
+    font-weight: bolder;
+    /* border: 2px solid black; */
+    color: red;
+    transform: scale(1.002);
+}
+.bg-body-tertiary{
+    background-image:linear-gradient(to right,#434344 0%, black 100%) ;
+    /* background-color: black !important; */
+}
+.carousel1{
+    background-color: black;
+    /* background-image: linear-gradient(to right,black 0%,#434343 100%); */
+}
+@media screen and (width <= 992px){
+    .navbar-collapse{
+    background-image:linear-gradient(to right,#434344 0%, black 100%) ;
+    /* background-color: white; */
+     padding-left: 2vw;
+     /* height: 15vh; */
+     border-radius: .5vh;
+     /* box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
+     box-shadow: rgba(0, 0, 0, 0.35) 38px 30px 36px -28px inset;
+    }   
+    .navbar-toggler-icon{
+        background-color: gray;
+  border: 2px solid transparent;
+  border-radius: .4vh;
+    }
+}
+ 
